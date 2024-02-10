@@ -37,10 +37,28 @@ body {
         }
     }
 
-    .Background1 {
+    .Jumbotron {
         background-image: url("~res/imgs/jumbotron.jpg");
         background-size: cover;
-        height: 700px;
+        height: 500px;
+    }
+
+    .Back_black {
+        background-color: black;
+        height: 600px;
+        padding: 10px;
+        .col {
+            p {
+                color: white;
+                font-weight: bold;
+                text-align: center;
+                font-size: 15px;
+            }
+            .comix_img {
+                width: 150px;
+                margin-left: 25px;
+            }
+        }
     }
 
     ul {

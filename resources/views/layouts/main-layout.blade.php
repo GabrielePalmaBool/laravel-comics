@@ -16,10 +16,19 @@
     </div>
 
     <!-- Jumbotorn -->
-    <div class="Background1"></div>
+    <div class="Jumbotron"></div>
+
+    <div class="Back_black">
+
+        <div class="container">
+
+            @yield('content')
+
+        </div> 
+
+    </div>
 
     <div class="container">
-        @yield('content')
         @include('components.footer')
     </div>
 </body>

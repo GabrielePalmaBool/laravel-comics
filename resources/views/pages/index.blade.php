@@ -4,22 +4,22 @@
 @endsection
 @section('content')
 
-    <ul>
+    <!-- Comix in pagina -->
+    <div class="row row-cols-6">
+
         @foreach ( $comics as $comix => $value)
 
-        <li>{{$value['title']}}</li>
+        <div class="col p-1"> 
+                
+             <img src="{{$value['thumb']}}" class="comix_img"alt="immagine comix"> 
 
-        <li> 
-            @foreach ( $value['artists'] as $artist => $value)
+             <p>{{$value['title']}}</p>
 
-                    {{$value}}
+        </div>
 
-            @endforeach
-        </li><br>
-       
-    
         @endforeach
-    </ul>
+
+    </div>
    
     
 @endsection

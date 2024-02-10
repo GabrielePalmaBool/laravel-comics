@@ -3,5 +3,23 @@
     <title>Home</title>
 @endsection
 @section('content')
-    <h1>Hello, World!</h1>
+
+    <ul>
+        @foreach ( $comics as $comix => $value)
+
+        <li>{{$value['title']}}</li>
+
+        <li> 
+            @foreach ( $value['artists'] as $artist => $value)
+
+                    {{$value}}
+
+            @endforeach
+        </li><br>
+       
+    
+        @endforeach
+    </ul>
+   
+    
 @endsection

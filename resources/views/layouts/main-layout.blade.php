@@ -10,8 +10,15 @@
     @yield('head')
 </head>
 <body>
-    <div class="text-center">
+    
+    <div class="container">
         @include('components.header')
+    </div>
+
+    <!-- Jumbotorn -->
+    <div class="Background1"></div>
+
+    <div class="container">
         @yield('content')
         @include('components.footer')
     </div>

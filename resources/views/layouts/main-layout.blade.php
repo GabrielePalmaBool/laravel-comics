@@ -18,15 +18,7 @@
     <!-- Jumbotorn -->
     <div class="Jumbotron"></div>
 
-    <div class="Back_black">
-
-        <div class="container">
-
-            @yield('content')
-
-        </div> 
-
-    </div>
+    @yield('content')
 
     <div class="container">
         @include('components.footer')

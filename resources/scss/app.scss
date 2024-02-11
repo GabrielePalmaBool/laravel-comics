@@ -61,6 +61,36 @@ body {
         }
     }
 
+    .Blue_black {
+        background-color: rgb(2, 130, 249);
+        height: 100px;
+        padding: 10px;
+
+        .last {
+            margin-top: 10px;
+        }
+
+        .locator {
+            width: 35px;
+        }
+
+        .visa {
+            width: 50px;
+        }
+        img {
+            width: 45px;
+            margin-left: 25px;
+            vertical-align: middle;
+        }
+
+        p {
+            display: inline-block;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            font-size: 15px;
+        }
+    }
     ul {
         list-style-type: none;
     }

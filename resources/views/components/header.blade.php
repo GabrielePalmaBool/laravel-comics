@@ -2,12 +2,12 @@
     $navbar = [
         [
             "text" => "CHARACTERS",
-            "href" => "#",
+            "href" => "http://127.0.0.1:8000/",
             "current" => false,
         ],
         [
             "text" => "COMICS",
-            "href" => "#",
+            "href" => "/comic",
             "current" => true,
         ],
         [

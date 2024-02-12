@@ -11,7 +11,7 @@
             <!-- Comix in pagina -->
             <div class="row row-cols-6">
 
-            @foreach ( $comics as $comix => $value)
+            @foreach ( $comics as $id => $value)
 
             <div class="col p-1"> 
                     
